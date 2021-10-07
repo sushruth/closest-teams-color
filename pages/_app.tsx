@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app'
 import { AppContextProvider } from '../context/app-context'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <AppContextProvider><Component {...pageProps} /></AppContextProvider>
+  return <Component {...pageProps} />
 }
+
 export default MyApp
