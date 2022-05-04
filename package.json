@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fluentui/react-northstar": "0.59.0",
+    "@fluentui/react-northstar": "0.62.0",
     "color-diff": "^1.2.0",
-    "next": "11.1.2",
+    "next": "^11.1.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
